@@ -1,0 +1,35 @@
+.main-form{
+    margin: 10% 40%;
+    
+    .input-area{
+        height: 40px;
+        width: fit-content;
+        position: absolute;
+    }
+    .submit-btn{
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 5px;
+        top: 12px;
+        left: 47%;
+        border-radius: 15%;
+        background: grey;
+        position: relative;
+        &:hover{
+            cursor: pointer;
+            background: darkgray;
+            transform:translateY(-5px);
+            transition: all 0.4s ease-in;
+        }
+        &:active{
+            transform: translateY(0);
+        }
+    }
+    .label{
+        position: relative;
+        top: -27px;
+        left:160px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+}
